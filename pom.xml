@@ -13,6 +13,9 @@
     <modules>
         <module>day1</module>
         <module>day2</module>
+        <module>day8</module>
+        <module>day8.1</module>
+
     </modules>
     
     <properties>

@@ -36,7 +36,7 @@ public class TwoStoriesBuildingTestCase {
     assertNotNull(building);
   }
 
-
+  @Test
   public void assertThatBuilding_HasTwoFloors() {
 
     assertThat(building.getNumberOFFloors(), is(2));
@@ -46,7 +46,7 @@ public class TwoStoriesBuildingTestCase {
   public void assertThatBuilding_HasFirstStory() {
 
     assertNotNull(building.getFirstStory());
-    assertThat(building.getFirstStory().getFloorNbr(), is(1));
+    assertThat(building.getFirstStory().getFloorNbr(), is(3));
   }
 
 
